@@ -1,19 +1,14 @@
 import React from 'react';
-import './App.css';
-import Brand from './Components/Navbar/brand.jsx';
-import Navlink from './Components/Navbar/links.jsx';
-
-
-
-const name = 'Frans Visser';
+import './App.scss';
+import Navbar from './Components/Navbar/Nav.jsx';
+// import Navlink from './Components/Navbar/links.jsx';
+// import Navbar from './Components/Navbar/Navbar.jsx';
 
 
 function App() {
   return (
     <div className="App">
-      <Brand />
-      <Navlink />
-      <h1>Hello {name}</h1>
+      <Navbar />
     </div>
   );
 }
