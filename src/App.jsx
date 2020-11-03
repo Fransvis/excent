@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.scss';
-// import Navlink from './Components/Navbar/links.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx';
 
 
